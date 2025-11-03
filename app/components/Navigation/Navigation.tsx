@@ -1,8 +1,6 @@
 import React from "react";
 
-type Props = {};
-
-const Navigation = ({}: Props) => {
+const Navigation = () => {
   return <section className="navigation"></section>;
 };
 
