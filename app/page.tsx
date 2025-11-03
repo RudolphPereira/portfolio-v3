@@ -1,7 +1,7 @@
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center font-sans">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between"></main>
-    </div>
+    <main className="flex min-h-screen w-full max-w-5xl m-auto items-center justify-center font-montserrat text-darkGrey">
+      <h1 className="title text-5xl">Hello</h1>
+    </main>
   );
 }
