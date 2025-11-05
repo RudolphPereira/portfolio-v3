@@ -5,14 +5,14 @@ type Props = {
   available?: boolean;
 };
 
-function BadgeCard({ title, available }: Props) {
+function BadgePrimary({ title, available }: Props) {
   return (
     <div className="badgeBox">
       <Badge
         className={`relative flex items-center gap-2 ${
           available
             ? "bg-emerald-600/10 text-emerald-600"
-            : "bg-componentBackground/50 text-darkGrey"
+            : "bg-componentBackground/80 text-darkGrey"
         }  border-white py-1.5 px-3 rounded-lg text-sm font-medium border-2 drop-shadow-xs shadow-sm`}
       >
         {available && (
@@ -27,4 +27,4 @@ function BadgeCard({ title, available }: Props) {
   );
 }
 
-export default BadgeCard;
+export default BadgePrimary;

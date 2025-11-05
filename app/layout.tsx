@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
 import { Montserrat, Caveat } from "next/font/google";
 import "./globals.css";
-import Navigation from "./components/Navigation/Navigation";
-
+import { Analytics } from "@vercel/analytics/next";
 const montserrat = Montserrat({
   variable: "--font-montserrat",
   subsets: ["latin"],
@@ -29,8 +28,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${montserrat.variable} ${caveat.variable} antialiased`}>
-        <Navigation />
         {children}
+        <Analytics />
       </body>
     </html>
   );

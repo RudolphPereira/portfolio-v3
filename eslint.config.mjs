@@ -16,6 +16,7 @@ const eslintConfig = defineConfig({
     "react/react-in-jsx-scope": "off", // Disable need for React in scope (Next.js)
     "no-undef": "off", // Turn off undefined variable checks (handled by TS)
     camelcase: "error", // Enforce camelCase naming
+    "@typescript-eslint/no-explicit-any": "off", // Allow usage of 'any' type
   },
   ignores: [".next/**", "out/**", "build/**", "next-env.d.ts"],
 });
