@@ -1,13 +1,12 @@
-import { Button } from "@/components/ui/button";
 import {
   Card,
   CardContent,
   CardFooter,
   CardHeader,
 } from "@/components/ui/card";
-import { ArrowRight } from "lucide-react";
 import Image, { StaticImageData } from "next/image";
 import BadgeSecondary from "../Badges/BadgeSecondary";
+import ActionBtn from "../ActionBtn/ActionBtn";
 
 type Props = {
   projectLogo?: string | StaticImageData;
@@ -29,12 +28,12 @@ function ProjectCard({
   badges,
 }: Props) {
   return (
-    <Card className="max-w-md shadow-none gap-0 pt-0 group transition-all duration-400 h-full hover:shadow-xs">
+    <Card className="flex flex-col max-w-md shadow-none gap-0 pt-0 group transition-all duration-400 h-full hover:shadow-xs">
       <CardHeader className="py-3 px-5 flex flex-row items-center gap-1 font-semibold text-lg">
         {title}
       </CardHeader>
 
-      <CardContent className="px-5 flex flex-col gap-4">
+      <CardContent className="px-5 flex flex-col gap-4 flex-1">
         <div
           className={`flex  justify-center items-center w-full h-68  ${additionalCardContentClass} md:bg-componentBackground rounded-xl transition-all duration-400`}
         >
@@ -65,16 +64,7 @@ function ProjectCard({
       </CardContent>
 
       <CardFooter className="mt-6">
-        <Button className="cursor-pointer">
-          <a
-            href={url || ""}
-            rel="noopener noreferrer"
-            target="_blank"
-            className="flex gap-1.5 items-center"
-          >
-            Visit app <ArrowRight />
-          </a>
-        </Button>
+        <ActionBtn url={url} text="Visit app" />
       </CardFooter>
     </Card>
   );
