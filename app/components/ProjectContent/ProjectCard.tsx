@@ -43,7 +43,7 @@ function ProjectCard({
               src={projectLogo || ""}
               width={0}
               height={0}
-              className="w-full h-full object-contain rounded-xl group-hover:shadow-md border-transparent group-hover:border-white group-hover:scale-105 border-3 group-hover:drop-shadow-xs transition-all duration-250"
+              className="w-full h-full object-contain rounded-xl group-hover:shadow-md border-transparent group-hover:border-white scale-110 md:scale-100 group-hover:scale-105 border-3 group-hover:drop-shadow-xs transition-all duration-250"
               alt={title || ""}
             />
           </div>
