@@ -24,21 +24,26 @@ export const socialData: Data[] = [
 
 function SocialCard() {
   return (
-    <div className="bg-componentBackground/45 h-70 shadow-sm rounded-lg flex flex-wrap gap-4 items-center justify-center">
-      {socialData.map((item) => {
-        const Icon = item.icon;
-        return (
-          <Link
-            key={item.url}
-            href={item.url}
-            target="_blank"
-            rel="noreferrer"
-            className="inline-block bg-white p-3 rounded-lg shadow-md transition-transform hover:bg-black hover:text-white"
-          >
-            <Icon className="w-6 h-6" />
-          </Link>
-        );
-      })}
+    <div className="bg-componentBackground/45 h-75 shadow-sm rounded-lg flex flex-col gap-2 items-center justify-center">
+      <div className="flex flex-wrap gap-4 items-center justify-center">
+        {socialData.map((item) => {
+          const Icon = item.icon;
+          return (
+            <Link
+              key={item.url}
+              href={item.url}
+              target="_blank"
+              rel="noreferrer"
+              className="inline-block bg-white p-3 rounded-lg shadow-md transition-transform hover:bg-black hover:text-white"
+            >
+              <Icon className="w-6 h-6" />
+            </Link>
+          );
+        })}
+      </div>
+      <footer className="w-full py-4 text-center text-sm text-darkGrey">
+        Developed by Rudolph Pereira © 2025
+      </footer>
     </div>
   );
 }
