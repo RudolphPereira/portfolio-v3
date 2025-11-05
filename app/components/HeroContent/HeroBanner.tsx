@@ -1,6 +1,5 @@
-import { Button } from "@/components/ui/button";
 import BadgePrimary from "../Badges/BadgePrimary";
-import { ArrowRight } from "lucide-react";
+import ActionBtn from "../ActionBtn/ActionBtn";
 
 function HeroBanner() {
   return (
@@ -25,9 +24,7 @@ function HeroBanner() {
           available
         />
 
-        <Button className="cursor-pointer">
-          Reach out <ArrowRight />
-        </Button>
+        <ActionBtn url="mailto:rudolphdev20@gmail.com" text=" Reach out" />
       </div>
     </div>
   );

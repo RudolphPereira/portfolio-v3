@@ -152,3 +152,8 @@ html {
   scroll-behavior: smooth;
   scroll-behavior-duration: 2500ms;
 }
+
+button:active,
+a:active {
+  transform: scale(0.98);
+}

@@ -13,7 +13,7 @@ type Data = {
 
 export const socialData: Data[] = [
   { url: "", icon: SiGoogledocs },
-  { url: "hello", icon: SiGmail },
+  { url: "mailto:rudolphdev20@gmail.com", icon: SiGmail },
   { url: "https://www.linkedin.com/in/rudolphpereira/", icon: SiLinkedin },
   { url: "https://github.com/RudolphPereira", icon: SiGithub },
   {

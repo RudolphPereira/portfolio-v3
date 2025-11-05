@@ -1,9 +1,7 @@
 import BadgePrimary from "../Badges/BadgePrimary";
 import TitleBox from "../TitleBox/TitleBox";
-
-import { Button } from "@/components/ui/button";
-import { ArrowRight } from "lucide-react";
 import SocialCard from "./SocialCard";
+import ActionBtn from "../ActionBtn/ActionBtn";
 
 function ContactBanner() {
   return (
@@ -19,9 +17,7 @@ function ContactBanner() {
             Let’s connect and build something that feels right and performs even
             better.
           </p>
-          <Button className="cursor-pointer w-fit">
-            Reach out <ArrowRight />
-          </Button>
+          <ActionBtn url="mailto:rudolphdev20@gmail.com" text=" Reach out" />
         </div>
       </div>
 
