@@ -34,7 +34,7 @@ function SocialCard() {
               href={item.url}
               target="_blank"
               rel="noreferrer"
-              className="inline-block bg-white p-3 rounded-lg shadow-md transition-transform hover:bg-black hover:text-white"
+              className="inline-block bg-white p-3 rounded-lg shadow-md transition-all ease-in-out duration-200 hover:bg-black hover:text-white "
             >
               <Icon className="w-6 h-6" />
             </Link>
