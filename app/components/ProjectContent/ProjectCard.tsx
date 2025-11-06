@@ -7,6 +7,7 @@ import {
 import Image, { StaticImageData } from "next/image";
 import BadgeSecondary from "../Badges/BadgeSecondary";
 import ActionBtn from "../ActionBtn/ActionBtn";
+import fallBackImage from "@/app/assets/fallImage.jpg";
 
 type Props = {
   projectLogo?: string | StaticImageData;
@@ -39,7 +40,7 @@ function ProjectCard({
         >
           <div className="w-[80%] rounded-xl md:grayscale-100 md:group-hover:grayscale-0 transition-all duration-250">
             <Image
-              src={projectLogo || ""}
+              src={projectLogo || fallBackImage}
               width={0}
               height={0}
               className="w-full h-full object-contain rounded-xl group-hover:shadow-md border-transparent group-hover:border-white scale-110 md:scale-100 group-hover:scale-105 border-3 group-hover:drop-shadow-xs transition-all duration-250"

@@ -1,5 +1,6 @@
 import { Card, CardContent, CardFooter } from "@/components/ui/card";
 import Image, { StaticImageData } from "next/image";
+import fallBackImage from "@/app/assets/fallImage.jpg";
 
 type Props = {
   title?: string;
@@ -15,7 +16,7 @@ function AboutCard({ title, image }: Props) {
             <Image
               className="w-full h-full group-hover:scale-105 rounded-xl object-cover  transition-all duration-250"
               alt={title || ""}
-              src={image || ""}
+              src={image || fallBackImage}
               width={0}
               height={0}
             />
