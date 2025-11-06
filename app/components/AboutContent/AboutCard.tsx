@@ -9,7 +9,7 @@ type Props = {
 
 function AboutCard({ title, image }: Props) {
   return (
-    <Card className="flex flex-col h-full shadow-none gap-0 py-0 group transition-all duration-400 h-full hover:shadow-xs">
+    <Card className="flex flex-col shadow-none gap-0 py-0 group transition-all duration-400 h-full hover:shadow-xs">
       <CardContent className="px-2 mt-2 flex flex-col gap-4 flex-1">
         <div className="flex justify-center items-center h-50 md:w-65 md:h-65 rounded-xl transition-all duration-400">
           <div className="w-full  h-full overflow-hidden  rounded-xl md:grayscale-100 md:group-hover:grayscale-0 transition-all duration-250">
