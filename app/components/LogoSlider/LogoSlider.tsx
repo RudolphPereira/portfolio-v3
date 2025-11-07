@@ -32,26 +32,20 @@ const techLogos = [
     node: <SiJavascript />,
     title: "Javascript",
   },
-
   { node: <SiReact />, title: "React" },
-
   { node: <SiNextdotjs />, title: "Next.js" },
-
   {
     node: <SiTypescript />,
     title: "TypeScript",
   },
-
   {
     node: <SiRedux />,
     title: "Redux",
   },
-
   {
     node: <SiVite />,
     title: "Vite",
   },
-
   {
     node: <SiTailwindcss />,
     title: "Tailwind CSS",
@@ -60,7 +54,6 @@ const techLogos = [
     node: <SiBootstrap />,
     title: "Bootstrap",
   },
-
   {
     node: <SiSass />,
     title: "Sass",
