@@ -23,7 +23,7 @@ function AboutBanner() {
               <span className="font-bold">UAE government</span>.{" "}
               <span>View full</span>{" "}
               <Link
-                href="#"
+                href="/resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block mx-0.5 animate-pulse text-pink-800 hover:animate-none font-medium transition-all ease-in-out duration-200"
