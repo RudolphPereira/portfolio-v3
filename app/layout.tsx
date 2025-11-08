@@ -24,11 +24,11 @@ export const metadata: Metadata = {
     title: "Rudolph Pereira | Frontend Engineer",
     description:
       "Hey there, I am Rudolph. A frontend engineer with a passion for building minimal, clean and interactive user interfaces.",
-    url: "https://yourdomain.com",
+    url: "https://www.rudolphpereira.com/",
     type: "website",
     images: [
       {
-        url: "https://portfolio-psi-bice-26.vercel.app/bannerImage.jpg",
+        url: "https://www.rudolphpereira.com/bannerImage.jpg",
         width: 1200,
         height: 630,
         alt: "Rudolph Pereira Frontend Engineer",
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     title: "Rudolph Pereira | Frontend Engineer",
     description:
       "Hey there, I am Rudolph. A frontend engineer with a passion for building minimal, clean and interactive user interfaces.",
-    images: ["https://portfolio-psi-bice-26.vercel.app/bannerImage.jpg"],
+    images: ["https://www.rudolphpereira.com/bannerImage.jpg"],
   },
 };
 

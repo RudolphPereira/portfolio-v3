@@ -116,7 +116,7 @@ export default function Resume() {
         <div className="text-xs font-medium flex gap-5">
           <p className="font-bold">rudolphdev20@gmail.com</p>
           <p className="font-bold">+971 506062583 | +91 9819468208</p>
-          <p className="font-bold"> http://rudolphpereira.com </p>
+          <p className="font-bold">rudolphpereira.com </p>
         </div>
       </header>
 
