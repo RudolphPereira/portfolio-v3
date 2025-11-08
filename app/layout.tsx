@@ -59,7 +59,6 @@ export const metadata: Metadata = {
 };
 
 function getJsonLd() {
-  // eslint-disable-next-line
   const person = {
     "@context": "https://schema.org",
     "@type": "Person",
@@ -76,7 +75,6 @@ function getJsonLd() {
     ],
   };
 
-  // eslint-disable-next-line
   const website = {
     "@context": "https://schema.org",
     "@type": "WebSite",
